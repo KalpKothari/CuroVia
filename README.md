@@ -1,4 +1,7 @@
-<img src="public/logo.png" alt="CuroVia Logo" width="40"/> **CuroVia**
+<p align="center">
+  <img src="public/logo.png" alt="CuroVia Logo" width="40" style="vertical-align: middle;"/> <span style="font-size:32px; font-weight:bold;">#CuroVia</span>
+</p>
+
 
 
 **CuroVia** is a modern telemedicine web platform that connects patients and doctors worldwide through secure video consultations. It provides robust user onboarding, specialty-based search, real-time scheduling, role-based dashboards, credit-based booking, and smooth payouts - all in a fully responsive interface. Built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Shadcn UI**, **Vonage**, **NeonDB**, **Prisma**, and **Clerk Authentication**.
