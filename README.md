@@ -1,41 +1,48 @@
 # 🩺 CuroVia
 
-**CuroVia** is a comprehensive telemedicine web platform that enables patients and doctors to connect through secure one-on-one video consultations from anywhere in the world. It features robust user onboarding, real-time scheduling, secure payments, and a fully responsive interface. Built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Shadcn UI**, **Vonage**, **NeonDB**, **Prisma**, and **Clerk Authentication**.
+**CuroVia** is a modern telemedicine web platform that connects patients and doctors worldwide through secure video consultations. It provides robust user onboarding, specialty-based search, real-time scheduling, role-based dashboards, credit-based booking, and smooth payouts — all in a fully responsive interface. Built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Shadcn UI**, **Vonage**, **NeonDB**, **Prisma**, and **Clerk Authentication**.
 
 ---
 
 ### *Key Features & Functionalities*:-
 
-### Secure Authentication & Role-Based Access
+### Secure Authentication & Role Management
 - **Clerk Authentication** for secure sign-ups/logins.
-- Role-based onboarding for **patients, doctors, and admins**.
+- Role-based access for **patients, doctors, and admins**.
 
-### Specialty-Based Doctor Search & Booking
-- Patients can **search by medical specialty** to find the right doctor.
-- Book appointments using **real-time doctor availability** with easy slot selection.
+### Patient Experience & Booking System
+- Patients **register as patients** with guided onboarding.
+- Search for doctors **by specialty** to find the best match.
+- Book appointments through **real-time available slots**.
+- Buy **monthly subscription plans** to top up credits for booking consultations.
+- Add **notes for the doctor** before the appointment and review **doctor’s notes** after.
+- Cancel or join video calls through the **appointments page**.
 
-### One-on-One Video Consultations with Notes
-- **Vonage integration** powers secure video calls.
-- Patients can add **pre-consultation notes**; doctors can share follow-up notes post-session.
-- Users can turn **video/audio on/off** and end calls smoothly.
+### Doctor Dashboard & Earnings
+- Doctors **register with verification** and set their availability.
+- Manage appointments, join video calls, and add post-consultation notes.
+- Track earnings and **request payouts** through a dedicated dashboard.
+- Withdrawals processed securely via **PayPal**.
 
-### Subscription Plans & Credit-Based System
-- Patients purchase **monthly subscription plans** when credits run out.
-- Each credit equals **$10 USD**, with a **20% platform fee** per credit.
+### Admin Controls & Platform Security
+- Admins **verify doctor credentials** before approval.
+- **Suspend accounts**, manage compliance, and process payout requests.
+- Monitor platform activity and ensure secure operations.
 
-### Admin Dashboard & Doctor Management
-- Admins **verify medical credentials**, approve doctor applications, and manage payouts.
-- Admins can **suspend doctor accounts** and process withdrawal requests securely.
+### Video Consultation Powered by Vonage
+- One-on-one secure video calls with **token expiration** for privacy.
+- Doctors and patients can **turn mic/camera on/off**, mute/unmute, or end the call anytime.
 
 ---
 
-### *Real-World Implementation & Revenue Model*:-
+### *Platform Revenue & Real-World Use Case*:-
 
-- Clinics and hospitals can deploy **CuroVia** to offer remote consultations to patients worldwide.
-- Doctors earn money by offering consultations; patients pay with purchased credits.
-- The platform retains a **20% fee per credit**, creating a **sustainable revenue stream**.
-- **PayPal integration** processes payouts for doctors after admin approval.
-- Fully cloud-based architecture allows easy scaling to serve global users.
+- **Revenue Model**: Patients pay for consultations using credits purchased through monthly subscription plans.
+- Each credit covers a consultation fee — doctors earn for each session.
+- **Each credit = $10 USD**, with a **20% platform fee** deducted per credit — the rest goes to the doctor.
+- This ensures a sustainable business model for the platform.
+
+- **Real-World Use**: Ideal for hospitals, clinics, or individual practitioners expanding to remote care. Patients can access doctors globally, and doctors have a trusted channel for secure payouts.
 
 ---
 
@@ -43,16 +50,16 @@
 
 | Category          | Technology Used                | Purpose                                          |
 |-------------------|---------------------------------|--------------------------------------------------|
-| **Frontend**      | React 19 + Next.js 15          | UI, Routing, SSR                                 |
-| **UI Framework**  | Shadcn UI + Tailwind CSS       | Responsive, modern design                        |
-| **Backend**       | Next.js API Routes             | Business logic & API handling                    |
-| **Database**      | NeonDB (PostgreSQL)            | Store users, appointments, transactions          |
+| **Frontend**      | React 19 + Next.js 15          | Modern UI, SSR, Routing                          |
+| **UI Framework**  | Shadcn UI + Tailwind CSS       | Clean, responsive design                         |
+| **Backend**       | Next.js API Routes             | Business logic & APIs                            |
+| **Database**      | NeonDB (PostgreSQL)            | Stores users, bookings, transactions             |
 | **ORM**           | Prisma ORM                     | Database queries & schema management             |
-| **Video Calls**   | Vonage API                     | Secure real-time video consultations             |
-| **Authentication**| Clerk Authentication           | Role-based access control                        |
-| **Payments**      | PayPal                         | Doctor payouts & platform fee collection         |
+| **Video Calls**   | Vonage API                     | Real-time secure video consultations             |
+| **Authentication**| Clerk Authentication           | Secure role-based sign-ups/logins                |
+| **Payments**      | PayPal                         | Doctor payouts & credit purchases                |
 | **Hosting**       | Vercel                         | Cloud-based deployment                           |
 
 ---
 
-✨ **CuroVia** bridges the gap between patients and doctors through secure, convenient, and efficient virtual healthcare.
+**CuroVia** — bringing accessible, trusted healthcare to your fingertips, anywhere in the world.
