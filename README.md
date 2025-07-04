@@ -1,6 +1,6 @@
 # 🩺 CuroVia
 
-**CuroVia** is a modern telemedicine web platform that connects patients and doctors worldwide through secure video consultations. It provides robust user onboarding, specialty-based search, real-time scheduling, role-based dashboards, credit-based booking, and smooth payouts — all in a fully responsive interface. Built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Shadcn UI**, **Vonage**, **NeonDB**, **Prisma**, and **Clerk Authentication**.
+**CuroVia** is a modern telemedicine web platform that connects patients and doctors worldwide through secure video consultations. It provides robust user onboarding, specialty-based search, real-time scheduling, role-based dashboards, credit-based booking, and smooth payouts - all in a fully responsive interface. Built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Shadcn UI**, **Vonage**, **NeonDB**, **Prisma**, and **Clerk Authentication**.
 
 ---
 
@@ -39,7 +39,7 @@
 
 - **Revenue Model**: Patients pay for consultations using credits purchased through monthly subscription plans.
 - Each credit covers a consultation fee — doctors earn for each session.
-- **Each credit = $10 USD**, with a **20% platform fee** deducted per credit — the rest goes to the doctor.
+- **Each credit = $10 USD**, with a **20% platform fee** deducted per credit - the rest goes to the doctor.
 - This ensures a sustainable business model for the platform.
 
 - **Real-World Use**: Ideal for hospitals, clinics, or individual practitioners expanding to remote care. Patients can access doctors globally, and doctors have a trusted channel for secure payouts.
@@ -62,4 +62,4 @@
 
 ---
 
-**CuroVia** — bringing accessible, trusted healthcare to your fingertips, anywhere in the world.
+**CuroVia** - bringing accessible, trusted healthcare to your fingertips, anywhere in the world.
