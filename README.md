@@ -1,5 +1,5 @@
 <h1>
-  <img src="public/logo.png" alt="CuroVia Logo" width="40" style="vertical-align: middle;"/> CuroVia
+  <img src="public/logo.png" alt="CuroVia Logo" width="55" style="vertical-align: middle;"/> CuroVia
 </h1>
 
 
