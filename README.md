@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="public/logo.png" alt="CuroVia Logo" width="40" style="vertical-align: middle;"/> <span style="font-size:32px; font-weight:bold;">#CuroVia</span>
+<p>
+  <img src="public/logo.png" alt="CuroVia Logo" width="40" style="vertical-align: middle;"/> <span style="font-size:32px; font-weight:bold;">CuroVia</span>
 </p>
 
 
