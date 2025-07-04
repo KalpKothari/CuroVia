@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🩺 CuroVia
 
-## Getting Started
+**CuroVia** is a comprehensive telemedicine web platform that enables patients and doctors to connect through secure one-on-one video consultations from anywhere in the world. It features robust user onboarding, real-time scheduling, secure payments, and a fully responsive interface. Built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Shadcn UI**, **Vonage**, **NeonDB**, **Prisma**, and **Clerk Authentication**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### *Key Features & Functionalities*:-
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Secure Authentication & Role-Based Access
+- **Clerk Authentication** for secure sign-ups/logins.
+- Role-based onboarding for **patients, doctors, and admins**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Specialty-Based Doctor Search & Booking
+- Patients can **search by medical specialty** to find the right doctor.
+- Book appointments using **real-time doctor availability** with easy slot selection.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### One-on-One Video Consultations with Notes
+- **Vonage integration** powers secure video calls.
+- Patients can add **pre-consultation notes**; doctors can share follow-up notes post-session.
+- Users can turn **video/audio on/off** and end calls smoothly.
 
-## Learn More
+### Subscription Plans & Credit-Based System
+- Patients purchase **monthly subscription plans** when credits run out.
+- Each credit equals **$10 USD**, with a **20% platform fee** per credit.
 
-To learn more about Next.js, take a look at the following resources:
+### Admin Dashboard & Doctor Management
+- Admins **verify medical credentials**, approve doctor applications, and manage payouts.
+- Admins can **suspend doctor accounts** and process withdrawal requests securely.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### *Real-World Implementation & Revenue Model*:-
 
-## Deploy on Vercel
+- Clinics and hospitals can deploy **CuroVia** to offer remote consultations to patients worldwide.
+- Doctors earn money by offering consultations; patients pay with purchased credits.
+- The platform retains a **20% fee per credit**, creating a **sustainable revenue stream**.
+- **PayPal integration** processes payouts for doctors after admin approval.
+- Fully cloud-based architecture allows easy scaling to serve global users.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack Breakdown
+
+| Category          | Technology Used                | Purpose                                          |
+|-------------------|---------------------------------|--------------------------------------------------|
+| **Frontend**      | React 19 + Next.js 15          | UI, Routing, SSR                                 |
+| **UI Framework**  | Shadcn UI + Tailwind CSS       | Responsive, modern design                        |
+| **Backend**       | Next.js API Routes             | Business logic & API handling                    |
+| **Database**      | NeonDB (PostgreSQL)            | Store users, appointments, transactions          |
+| **ORM**           | Prisma ORM                     | Database queries & schema management             |
+| **Video Calls**   | Vonage API                     | Secure real-time video consultations             |
+| **Authentication**| Clerk Authentication           | Role-based access control                        |
+| **Payments**      | PayPal                         | Doctor payouts & platform fee collection         |
+| **Hosting**       | Vercel                         | Cloud-based deployment                           |
+
+---
+
+✨ **CuroVia** bridges the gap between patients and doctors through secure, convenient, and efficient virtual healthcare.
